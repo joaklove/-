@@ -1,0 +1,22 @@
+pat_ERPSKRUV3FnTLtFffnVUVRPXfRtLvJSMYHYJKrFxrGgXVc42ND1qGh3NkS6WUsek
+
+
+
+
+
+<script src="https://lf-cdn.coze.cn/obj/unpkg/flow-platform/chat-app-sdk/1.2.0-beta.19/libs/cn/index.js"></script>
+<script>
+  new CozeWebSDK.WebChatClient({
+    config: {
+      bot_id: '7602919199299846184', // 你的 Bot ID，保持不变
+    },
+    componentProps: {
+      title: 'Coze',
+    },
+    auth: {
+      type: 'token',
+      // 👇 下面这行，把 'pat_xxxx' 换成你刚才复制的真 Token
+      token: 'pat_ERPSKRUV3FnTLtFffnVUVRPXfRtLvJSMYHYJKrFxrGgXVc42ND1qGh3NkS6WUsek', 
+    }
+  });
+</script>
